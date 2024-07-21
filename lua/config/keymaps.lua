@@ -15,3 +15,6 @@ keymap.set("n", "<Tab>", ":tabnext<CR>", opts)
 
 -- Map Shift-Tab to switch to the previous tab
 keymap.set("n", "<S-Tab>", ":tabprev<CR>", opts)
+
+-- Switch between nvim windows
+vim.keymap.set("n", "<tab>", "<C-w>w", { noremap = true, silent = true })
