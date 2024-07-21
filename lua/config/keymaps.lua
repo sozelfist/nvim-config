@@ -10,11 +10,5 @@ keymap.set("i", "jj", "<Esc>", opts)
 -- Delete a word backwards
 keymap.set("n", "dw", 'vb"_d')
 
--- Map Tab to switch to the next tab
-keymap.set("n", "<Tab>", ":tabnext<CR>", opts)
-
--- Map Shift-Tab to switch to the previous tab
-keymap.set("n", "<S-Tab>", ":tabprev<CR>", opts)
-
 -- Switch between nvim windows
 vim.keymap.set("n", "<tab>", "<C-w>w", { noremap = true, silent = true })
