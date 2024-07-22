@@ -43,6 +43,10 @@ require("lazy").setup({
     { import = "lazyvim.plugins.extras.lang.typescript" },
     -- Place to add plugins extras and their plugins
     { import = "lazyvim.plugins.extras.editor.outline" },
+    -- add nvim-dap extras and import its plugins
+    { import = "lazyvim.plugins.extras.dap.core" },
+    -- add nvim-dap adaptor for lua and import its plugins
+    { import = "lazyvim.plugins.extras.dap.nlua" },
     -- import/override with your plugins
     { import = "plugins" },
   },
