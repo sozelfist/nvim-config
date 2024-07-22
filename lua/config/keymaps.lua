@@ -8,7 +8,7 @@ local opts = { noremap = true, silent = true }
 keymap.set("i", "jj", "<Esc>", opts)
 
 -- Delete a word backwards
-keymap.set("n", "dw", 'vb"_d')
+keymap.set("n", "dw", 'vb"_d', opts)
 
 -- Switch between nvim windows
-vim.keymap.set("n", "<tab>", "<C-w>w", { noremap = true, silent = true })
+keymap.set("n", "<tab>", "<C-w>w", opts)
