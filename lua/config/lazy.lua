@@ -47,6 +47,8 @@ require("lazy").setup({
     { import = "lazyvim.plugins.extras.dap.core" },
     -- add nvim-dap adaptor for lua and import its plugins
     { import = "lazyvim.plugins.extras.dap.nlua" },
+    -- add mini.indentscope and import its plugins
+    { import = "lazyvim.plugins.extras.ui.mini-indentscope" },
     -- import/override with your plugins
     { import = "plugins" },
   },
