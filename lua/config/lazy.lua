@@ -41,6 +41,8 @@ require("lazy").setup({
     { import = "lazyvim.plugins.extras.lang.haskell" },
     -- add TypeScript extras and import its plugins
     { import = "lazyvim.plugins.extras.lang.typescript" },
+    -- add TeX extras and imports its plugins
+    { import = "lazyvim.plugins.extras.lang.tex" },
     -- Place to add plugins extras and their plugins
     { import = "lazyvim.plugins.extras.editor.outline" },
     -- add nvim-dap extras and import its plugins
