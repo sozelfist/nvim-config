@@ -80,4 +80,10 @@ require("lazy").setup({
       },
     },
   },
+  ui = {
+    icons = {
+      loaded = " ",
+      not_loaded = " ",
+    },
+  },
 })

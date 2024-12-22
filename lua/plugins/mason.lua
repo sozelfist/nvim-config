@@ -17,5 +17,12 @@ return {
       "dockerfile-language-server",
       "docker-compose-language-service",
     },
+    ui = {
+      icons = {
+        package_pending = " ",
+        package_installed = " ",
+        package_uninstalled = " ",
+      },
+    },
   },
 }
