@@ -3,9 +3,6 @@
 -- Add any additional options here
 vim.g.mapleader = "\\"
 
--- Disable smooth scrolling animation
-vim.g.snacks_animate = false
-
 vim.opt.encoding = "utf-8"
 vim.opt.fileencoding = "utf-8"
 
