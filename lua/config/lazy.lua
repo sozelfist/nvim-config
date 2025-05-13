@@ -38,7 +38,7 @@ require("lazy").setup({
     -- add CMake extras and import its plugins
     { import = "lazyvim.plugins.extras.lang.cmake" },
     -- add Haskell extras and import its plugins
-    { import = "lazyvim.plugins.extras.lang.haskell" },
+    -- { import = "lazyvim.plugins.extras.lang.haskell" },
     -- add TypeScript extras and import its plugins
     { import = "lazyvim.plugins.extras.lang.typescript" },
     -- add TeX extras and imports its plugins
